@@ -1,0 +1,143 @@
+body{
+    display: flex;
+    height: 100vh;
+    margin:0px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  line-height: 100px;
+  font-size:40pt;
+}
+
+header{
+    position: relative;
+    height: 100px;
+    width: 400px;
+    font-size: 50pt;
+}
+
+#s1, #s2, #s3, #s4{
+    position: absolute;
+    top:50%;
+}
+
+#s2{
+    left:100px;
+    top:60%;
+}
+
+#s3{
+    left:200px;
+    top:40%;
+}
+
+#s4{
+    left:300px;
+    top:60%;
+}
+
+span, #tempo, #btnStart, body>footer{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border:1px solid black;
+    border-radius: 5px;
+    line-height: 100px;
+    text-align: center;
+}
+
+span:hover, #tempo:hover, #btnStart:hover{
+    transform: scale(1.5);
+    color:white;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section{
+    width: 72%;
+}
+
+section:last-child{
+    display: flex;
+}
+
+nav{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin:57px;
+}
+
+nav footer{
+    display: flex;
+}
+
+#btnStart{
+    width: 200px;
+    height: 200px;
+}
+
+#tempo{
+    line-height:normal;
+}
+
+#tempo span, #btnStart span{
+    margin-top:25%;
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    font-size:30pt;
+    border: 0px;
+}
+
+#tempo span:hover, #tempo:hover, #btnStart span:hover, #btnStart:hover, #info span:hover{
+    color:#8548E0;
+}
+
+#btnStart span{
+    font-size: 60pt;
+    width: 100px;
+    line-height: 100px;
+}
+
+body > footer{
+    width: 500px;
+    height: 70px;
+    font-size: 20pt;
+    color: #8548E0;
+}
+
+
+.rosa{
+    background-color: #E0539D;
+}
+
+.giallo{
+    background-color: #E0B35E;
+}
+
+.viola{
+    background-color: #8548E0;
+}
+
+.verde{
+    background-color: #7EE07C;
+}
+
+.blu{
+    background-color: #3D85E0;
+}

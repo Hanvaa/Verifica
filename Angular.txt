@@ -1,0 +1,3 @@
+ngOnINit = agisce nel momento che la pagina viene caricata, quando passo i dati dal padre al figlio, nel ngOnInit non vede le variabili,ma i servizi sì
+ngOnChanges = Momento che viene creato il componente
+

@@ -1,0 +1,122 @@
+
+Pastebin
+API
+tools
+faq
+paste
+Login Sign up
+Advertisement
+SHARE
+TWEET
+Guest User
+Untitled
+a guest
+May 12th, 2022
+60
+0
+Never
+Add comment
+Not a member of Pastebin yet Sign Up, it unlocks many cool features!
+1.33 KB  None 
+
+  books = [
+    {
+      author 'Hans Christian Andersen',
+      country 'Denmark',
+      pages 784,
+      title 'Fairy tales',
+      year 1836,
+      cEd1
+    },
+    {
+      author 'Dante Alighieri',
+      country 'Italia',
+      pages 928,
+      title 'The Divine Comedy',
+      year 1315,
+      cEd2
+    },
+    {
+      author 'Jane Austen',
+      country 'United Kingdom',
+      pages 226,
+      title 'Pride and Prejudice',
+      year 1813,
+      cEd1
+    },
+    {
+      author 'Samuel Beckett',
+      country 'Republic of Ireland',
+      pages 256,
+      title 'Molloy, Malone Dies, The Unnamable, the trilogy',
+      year 1952,
+      cEd3
+    },
+    {
+      author 'Giovanni Boccaccio',
+      country 'Italia',
+      pages 1024,
+      title 'The Decameron',
+      year 1351,
+      cEd1
+    },
+    {
+      author 'Miguel de Cervantes',
+      country 'Spain',
+      pages 1056,
+      title 'Don Quijote De La Mancha',
+      year 1610,
+      cEd2
+    },
+    {
+      author 'Geoffrey Chaucer',
+      country 'England',
+      pages 544,
+      title 'The Canterbury Tales',
+      year 1450,
+      cEd1
+    },
+    {
+      author 'Anton Chekhov',
+      country 'Russia',
+      pages 194,
+      title 'Stories',
+      year 1886,
+      cEd2
+    }
+
+      ];
+
+Advertisement
+Add Comment
+Please, Sign In to add comment
+Advertisement
+Public Pastes
+
+    GALV_CreditRoll_MZ
+    JavaScript  4 min ago  14.50 KB
+    CS5041-P1 John code
+    JavaScript  42 min ago  2.48 KB
+    CS5041-P1 Hrutuja Code
+    JavaScript  44 min ago  3.24 KB
+    Neural
+    HTML  48 min ago  0.41 KB
+    A_7
+    MySQL  1 hour ago  2.51 KB
+    Untitled
+    Python  2 hours ago  0.19 KB
+    Untitled
+    Python  2 hours ago  0.09 KB
+    goldbach
+    Java  2 hours ago  1.17 KB
+
+Advertisement
+create new paste    syntax languages    archive    faq    tools    night mode    api    scraping api    news    pro
+privacy statement    cookies policy    terms of service   security disclosure    dmca    report abuse    contact
+
+By using Pastebin.com you agree to our cookies policy to enhance your experience.
+Site design & logo © 2023 Pastebin
+We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the Cookies Policy.  OK, I Understand
+Not a member of Pastebin yet
+Sign Up, it unlocks many cool features!
+ 

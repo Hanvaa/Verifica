@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteBase / 
+
+RewriteCond %(REQUEST_FILENAME) !-d #se nel caso ti chiamo per mandare qualcosa, (d-directory  f-file)prendi tutto e analizzalo
+RewriteCond %(REQUEST_FILENAME) !-f
+
+RewriteRule ^(.+)$ server/Controller.php [QSA, L]      

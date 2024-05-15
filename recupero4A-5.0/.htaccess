@@ -1,0 +1,10 @@
+RewriteEngine On
+
+RewriteBase /
+
+#Se la cartella non esiste sul browser? passa alla regola successiva
+RewriteCond %{REQUEST_FILENAME} !-d
+#Se il file non esiste sul browser? passa alla regola successiva
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(.+)$ index.php [QSA,L]

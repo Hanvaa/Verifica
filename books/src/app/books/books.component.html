@@ -1,0 +1,29 @@
+<h3>Elenco libri</h3>
+<div><table class="table table-striped">
+  <thead>
+  <th>Autore</th>
+  <th>Nazione</th>
+  <th>Titolo</th>
+  <th>Anno</th>
+  <th>Pagine</th>
+  </thead>
+  <tbody>
+  <tr *ngFor="let item of books" [ngClass]="{'ita': item.country == 'Italia'}">
+    <td>{{item.author}}</td>
+    <td>{{item.country}}</td>
+    <td>{{item.title}}</td>
+    <td>{{item.year}}</td>
+    <td>{{item.pages}}</td>
+  </tr>
+  </tbody>
+</table></div>
+
+<h3>Elenco libri dinamico</h3>
+<div>
+  <table class="table">
+    <thead>
+      <th *ngFor="let b of books[0] | keyvalue"><span>{{b.key}}</span></th>
+    </thead>
+  </table>
+</div>
+

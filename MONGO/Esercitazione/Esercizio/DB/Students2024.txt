@@ -1,0 +1,345 @@
+{
+    "nome": "Maria",
+    "cognome": "Verde",
+    "eta": 24,
+    "indirizzo": {
+      "via": "Corso Venezia 5",
+      "città": "Milano",
+      "CAP": "20121"
+    },
+    "interessi": ["musica", "cucina"],
+    "dataIscrizione": {"$date": "2024-02-20T00:00:00Z"},
+    "dataNascita": {"$date": "1998-05-16T00:00:00Z"},
+    "corsi": [
+      {
+        "nome": "Cucina internazionale",
+        "voto": 30
+      },
+      {
+        "nome": "Musica classica",
+        "voto": 27
+      }
+    ]
+  }
+  {
+    "nome": "Luca",
+    "cognome": "Rosso",
+    "eta": 20,
+    "indirizzo": {
+      "via": "Piazza Garibaldi 32",
+      "città": "Roma",
+      "CAP": "00140"
+    },
+    "interessi": ["sport", "teatro"],
+    "dataIscrizione": {"$date": "2024-03-05T00:00:00Z"},
+    "dataNascita": {"$date": "2004-11-23T00:00:00Z"},
+    "corsi": [
+      {
+        "nome": "Recitazione",
+        "voto": 26
+      },
+      {
+        "nome": "Storia del cinema",
+        "voto": 28
+      }
+    ]
+  }
+  {
+    "nome": "Elena",
+    "cognome": "Gialli",
+    "eta": 20,
+    "indirizzo": {
+      "via": "Viale della Libertà 78",
+      "città": "Roma",
+      "CAP": "00140"
+    },
+    "interessi": ["fotografia", "giardinaggio", "letteratura"],
+    "dataIscrizione": {"$date": "2024-01-25T00:00:00Z"},
+    "dataNascita": {"$date": "1997-02-14T00:00:00Z"},
+    "corsi": [
+      {
+        "nome": "Fotografia digitale",
+        "voto": 29
+      },
+      {
+        "nome": "Botanica",
+        "voto": 30
+      }
+    ]
+  }
+  {
+    "nome": "Sofia",
+    "cognome": "Marrone",
+    "eta": 28,
+    "indirizzo": {
+      "via": "Strada Grande 22",
+      "città": "Torino",
+      "CAP": "10125"
+    },
+    "interessi": ["pittura", "escursionismo", "yoga"],
+    "dataIscrizione": {"$date": "2024-04-10T00:00:00Z"},
+    "dataNascita": {"$date": "1996-09-30T00:00:00Z"},
+    "corsi": [
+      {
+        "nome": "Yoga per principianti",
+        "voto": 27
+      },
+      {
+        "nome": "Tecniche di pittura",
+        "voto": 29
+      }
+    ]
+  }
+  {
+    "nome": "Alessandro",
+    "cognome": "Bianchi",
+    "eta": 30,
+    "indirizzo": {
+      "via": "Via Lunga 88",
+      "città": "Genova",
+      "CAP": "16121"
+    },
+    "interessi": ["vela", "programmazione", "lettura"],
+    "dataIscrizione": {"$date": "2024-05-15T00:00:00Z"},
+    "dataNascita": {"$date": "1994-04-08T00:00:00Z"},
+    "corsi": [
+      {
+        "nome": "Programmazione Java",
+        "voto": 30
+      },
+      {
+        "nome": "Navigazione a vela",
+        "voto": 28
+      }
+    ]
+  }
+  {
+    "nome": "Chiara",
+    "cognome": "Verdi",
+    "eta": 23,
+    "indirizzo": {
+      "via": "Corso dei Fiori 55",
+      "città": "Firenze",
+      "CAP": "50123"
+    },
+    "interessi": ["disegno", "cinematografia", "viaggiare"],
+    "dataIscrizione": {"$date": "2024-06-20T00:00:00Z"},
+    "dataNascita": {"$date": "1999-03-15T00:00:00Z"},
+    "corsi": [
+      {
+        "nome": "Tecniche di disegno",
+        "voto": 28
+      },
+      {
+        "nome": "Storia del cinema",
+        "voto": 26
+      }
+    ]
+  }
+  {
+    "nome": "Marco",
+    "cognome": "Neri",
+    "eta": 25,
+    "indirizzo": {
+      "via": "Piazzale del Lavoro 3",
+      "città": "Bologna",
+      "CAP": "40128"
+    },
+    "interessi": ["musica elettronica", "tecnologia", "videogiochi"],
+    "dataIscrizione": {"$date": "2024-07-05T00:00:00Z"},
+    "dataNascita": {"$date": "1999-03-22T00:00:00Z"},
+    "corsi": [
+      {
+        "nome": "Produzione musicale digitale",
+        "voto": 30
+      },
+      {
+        "nome": "Introduzione all'informatica",
+        "voto": 24
+      }
+    ]
+  }
+  {
+    "nome": "Beatrice",
+    "cognome": "Fiori",
+    "eta": 27,
+    "indirizzo": {
+      "via": "Via dei Mille 100",
+      "città": "Verona",
+      "CAP": "37122"
+    },
+    "interessi": ["fotografia", "escursioni", "cinema d'autore"],
+    "dataIscrizione": {"$date": "2024-08-01T00:00:00Z"},
+    "dataNascita": {"$date": "1999-03-19T00:00:00Z"},
+    "corsi": [
+      {
+        "nome": "Fotografia avanzata",
+        "voto": 30
+      },
+      {
+        "nome": "Analisi del cinema",
+        "voto": 27
+      }
+    ]
+  }
+  {
+    "nome": "Davide",
+    "cognome": "Luce",
+    "eta": 20,
+    "indirizzo": {
+      "via": "Viale Europa 45",
+      "città": "Roma",
+      "CAP": "00140"
+    },
+    "interessi": ["robotica", "intelligenza artificiale", "scacchi"],
+    "dataIscrizione": {"$date": "2023-09-10T00:00:00Z"},
+    "dataNascita": {"$date": "2003-10-02T00:00:00Z"},
+    "corsi": [
+      {
+        "nome": "Fondamenti di IA",
+        "voto": 28
+      },
+      {
+        "nome": "Robotica applicata",
+        "voto": 29
+      }
+    ]
+  }
+  {
+    "nome": "Valentina",
+    "cognome": "Acqua",
+    "eta": 29,
+    "indirizzo": {
+      "via": "Corso Magenta 56",
+      "città": "Roma",
+      "CAP": "00140"
+    },
+    "interessi": ["surf", "yoga", "nutrizione"],
+    "dataIscrizione": {"$date": "2024-10-20T00:00:00Z"},
+    "dataNascita": {"$date": "1999-03-08T00:00:00Z"},
+    "corsi": [
+      {
+        "nome": "Nutrizione e benessere",
+        "voto": 30
+      },
+      {
+        "nome": "Yoga avanzato",
+        "voto": 26
+      }
+    ]
+  }
+  {
+    "nome": "Francesco",
+    "cognome": "Monti",
+    "eta": 24,
+    "indirizzo": {
+      "via": "Piazza San Carlo 123",
+      "città": "Trieste",
+      "CAP": "34121"
+    },
+    "interessi": ["arrampicata", "lettura", "musica classica"],
+    "dataIscrizione": {"$date": "2024-11-15T00:00:00Z"},
+    "dataNascita": {"$date": "2000-01-15T00:00:00Z"},
+    "corsi": [
+      {
+        "nome": "Storia della musica",
+        "voto": 28
+      },
+      {
+        "nome": "Letteratura contemporanea",
+        "voto": 27
+      }
+    ]
+  }
+  {
+    "nome": "Laura",
+    "cognome": "Celeste",
+    "eta": 22,
+    "indirizzo": {
+      "via": "Via Lago 2",
+      "città": "Como",
+      "CAP": "22100"
+    },
+    "interessi": ["vela", "musica jazz", "pittura"],
+    "dataIscrizione": {"$date": "2024-12-10T00:00:00Z"},
+    "dataNascita": {"$date": "2002-03-28T00:00:00Z"},
+    "corsi": [
+      {
+        "nome": "Pittura moderna",
+        "voto": 27
+      },
+      {
+        "nome": "Storia della musica jazz",
+        "voto": 29
+      }
+    ]
+  }
+  {
+    "nome": "Andrea",
+    "cognome": "Rosa",
+    "eta": 20,
+    "indirizzo": {
+      "via": "Corso Buenos Aires 33",
+      "città": "Milano",
+      "CAP": "20124"
+    },
+    "interessi": ["programmazione", "cybersecurity", "videogiochi"],
+    "dataIscrizione": {"$date": "2024-01-20T00:00:00Z"},
+    "dataNascita": {"$date": "2004-05-11T00:00:00Z"},
+    "corsi": [
+      {
+        "nome": "Sicurezza informatica",
+        "voto": 30
+      },
+      {
+        "nome": "Sviluppo di videogiochi",
+        "voto": 28
+      }
+    ]
+  }
+  {
+    "nome": "Giulia",
+    "cognome": "Mare",
+    "eta": 26,
+    "indirizzo": {
+      "via": "Viale Oceano 45",
+      "città": "Genova",
+      "CAP": "16121"
+    },
+    "interessi": ["biologia marina", "subacquea", "conservazione ambientale"],
+    "dataIscrizione": {"$date": "2024-03-15T00:00:00Z"},
+    "dataNascita": {"$date": "1998-07-22T00:00:00Z"},
+    "corsi": [
+      {
+        "nome": "Conservazione degli oceani",
+        "voto": 30
+      },
+      {
+        "nome": "Biologia marina avanzata",
+        "voto": 26
+      }
+    ]
+  }
+  {
+    "nome": "Simone",
+    "cognome": "Verdi",
+    "eta": 23,
+    "indirizzo": {
+      "via": "Strada del Campo 76",
+      "città": "Bari",
+      "CAP": "70122"
+    },
+    "interessi": ["fotografia", "viaggi", "escursionismo"],
+    "dataIscrizione": {"$date": "2024-02-28T00:00:00Z"},
+    "dataNascita": {"$date": "2001-09-09T00:00:00Z"},
+    "corsi": [
+      {
+        "nome": "Tecniche fotografiche avanzate",
+        "voto": 28
+      },
+      {
+        "nome": "Escursionismo e natura",
+        "voto": 27
+      }
+    ]
+  }

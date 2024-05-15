@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL VALLAURI</title>
+
+    <!-- LINK AL FOGLIO DI STILE PER LE ICONE DI GOOGLEs -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Vallaurilogo.png"> HOTEL
+    </header>
+    <main>
+        <section id="divPrenota">
+            <h3>Prenota</h3>
+            <div>
+                <label for="txtDataDa">Da </label><input type="date" id="txtDataDa">
+                <label for="txtDataA">A </label><input type="date" id="txtDataA">
+            </div>
+            <div id="cardGroup">
+            </div>
+            <div>
+                <input id="txtEmail" type="email" placeholder="Email dell'ospite">
+                <button id="btnPrenota">Prenota</button>
+            </div>
+        </section>
+        <section id="divPrenotazioni">
+            <h3>Prenotazioni effettuate</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Periodo</th>
+                        <th>Email</th>
+                        <th>Stanza</th>
+                        <th>Pagato</th>
+                    </tr>
+                </thead>
+                <tbody id="tbodyPrenotazioni">
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <span class="material-symbols-outlined">bookmark_add</span>
+            <span class="material-symbols-outlined" id="btnPrenotazioni">bed</span>
+        </nav>
+    </footer>
+</body>
+</html>

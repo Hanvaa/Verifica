@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL VALLAURI</title>
+
+    <!-- LINK AL FOGLIO DI STILE PER LE ICONE DI GOOGLEs -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Vallaurilogo.png"> HOTEL
+    </header>
+    <main>
+        <section id="divPrenota">
+            <h3>Prenota</h3>
+            <div>
+                <label for="txtDataDa">Da </label><input type="date" id="txtDataDa">
+                <label for="txtDataA">A </label><input type="date" id="txtDataA">
+            </div>
+            <div id="cardGroup">
+                <!-- CARD E DETTAGLI DA CARICARE DINAMICAMENTE -->
+                <div class="card">
+                    <img src="img/camera.png">
+                    <div class="dettagli">
+                        <div>
+                            <input type="checkbox" id="checkTv1">
+                            <label for="checkTv1">
+                                <span class="material-symbols-outlined">tv</span>
+                            </label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="checkBalcone1">
+                            <label for="checkBalcone1">
+                                <span class="material-symbols-outlined">balcony</span>
+                            </label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="checkMare1">
+                            <label for="checkMare1">
+                                <span class="material-symbols-outlined">beach_access</span>
+                            </label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="checkMatrimoniale1">
+                            <label for="checkMatrimoniale1">
+                                <span class="material-symbols-outlined">bed</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/camera.png">
+                    <div class="dettagli">
+                        <div>
+                            <input type="checkbox" id="checkTv2">
+                            <label for="checkTv2">
+                                <span class="material-symbols-outlined">tv</span>
+                            </label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="checkBalcone2">
+                            <label for="checkBalcone2">
+                                <span class="material-symbols-outlined">balcony</span>
+                            </label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="checkMare2">
+                            <label for="checkMare2">
+                                <span class="material-symbols-outlined">beach_access</span>
+                            </label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="checkMatrimoniale2">
+                            <label for="checkMatrimoniale2">
+                                <span class="material-symbols-outlined">bed</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/camera.png">
+                    <div class="dettagli">
+                        <div>
+                            <input type="checkbox" id="checkTv3">
+                            <label for="checkTv3">
+                                <span class="material-symbols-outlined">tv</span>
+                            </label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="checkBalcone3">
+                            <label for="checkBalcone3">
+                                <span class="material-symbols-outlined">balcony</span>
+                            </label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="checkMare3">
+                            <label for="checkMare3">
+                                <span class="material-symbols-outlined">beach_access</span>
+                            </label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="checkMatrimoniale3">
+                            <label for="checkMatrimoniale3">
+                                <span class="material-symbols-outlined">bed</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/camera.png">
+                    <div class="dettagli">
+                        <div>
+                            <input type="checkbox" id="checkTv4">
+                            <label for="checkTv4">
+                                <span class="material-symbols-outlined">tv</span>
+                            </label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="checkBalcone4">
+                            <label for="checkBalcone4">
+                                <span class="material-symbols-outlined">balcony</span>
+                            </label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="checkMare4">
+                            <label for="checkMare4">
+                                <span class="material-symbols-outlined">beach_access</span>
+                            </label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="checkMatrimoniale4">
+                            <label for="checkMatrimoniale4">
+                                <span class="material-symbols-outlined">bed</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <input type="email" placeholder="Email dell'ospite">
+                <button>Prenota</button>
+            </div>
+        </section>
+        <section id="divPrenotazioni">
+            <h3>Prenotazioni effettuate</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Periodo</th>
+                        <th>Email</th>
+                        <th>Stanza</th>
+                        <th>Pagato</th>
+                    </tr>
+                </thead>
+                <tbody id="tbodyPrenotazioni">
+                    <!-- PRENOTAZIONI DA CARICARE DINAMICAMENTE -->
+                    <tr>
+                        <td>06/08<br>08/08</td>
+                        <td>mario.rossi</td>
+                        <td>N. 10</td>
+                        <td><span class="material-symbols-outlined">paid</span></td>
+                    </tr>
+                    <tr>
+                        <td>06/08<br>08/08</td>
+                        <td>giovanni.bianchi</td>
+                        <td>N. 4</td>
+                        <td><span class="material-symbols-outlined">money_off</span></td>
+                    </tr>
+                    <tr>
+                        <td>06/08<br>08/08</td>
+                        <td>sara.verdi</td>
+                        <td>N. 6</td>
+                        <td><span class="material-symbols-outlined">paid</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <span class="material-symbols-outlined">bookmark_add</span>
+            <span class="material-symbols-outlined">bed</span>
+        </nav>
+    </footer>
+</body>
+</html>

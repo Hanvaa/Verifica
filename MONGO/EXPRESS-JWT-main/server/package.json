@@ -1,0 +1,27 @@
+{
+  "name": "express-jwt",
+  "version": "1.0.0",
+  "description": "Gestione accesso tramite utilizzo del JWT",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2324-5AI/EXPRESS-JWT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2324-5AI/EXPRESS-JWT/issues"
+  },
+  "homepage": "https://github.com/2324-5AI/EXPRESS-JWT#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.5.0"
+  }
+}
